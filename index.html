@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en-GB" class="scroll-smooth">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Business Built Right | Business Support &amp; Growth for UK Businesses</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Inter:wght@400;500;600&display=swap">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+  theme: { extend: {
+    colors: { navy: '#0b1f3f', navy2: '#13305e', gold: '#c8a24a', gold2: '#e0c277', soft: '#f2f4f7', slate2: '#5b6573' },
+    fontFamily: { serif: ['Fraunces', 'Georgia', 'serif'], sans: ['Inter', 'system-ui', 'sans-serif'] }
+  } }
+}
+</script>
+<style>html{scroll-padding-top:72px}</style>
+</head>
+<body class="font-sans text-slate-800 leading-relaxed">
+
+<!-- NAVIGATION -->
+<header class="sticky top-0 z-20 bg-navy">
+  <div class="max-w-6xl mx-auto px-5 h-[68px] flex items-center justify-between">
+    <a href="#home" class="font-serif font-bold text-xl text-white">Business Built <span class="text-gold">Right</span></a>
+    <nav class="flex items-center gap-6 text-sm">
+      <a class="hidden lg:block text-slate-300 hover:text-gold2" href="#about">About</a>
+      <a class="hidden lg:block text-slate-300 hover:text-gold2" href="#services">Services</a>
+      <a class="hidden lg:block text-slate-300 hover:text-gold2" href="#tenders">Tenders</a>
+      <a class="hidden lg:block text-slate-300 hover:text-gold2" href="#growth">Growth</a>
+      <a class="hidden lg:block text-slate-300 hover:text-gold2" href="#portfolio">Portfolio</a>
+      <a class="hidden lg:block text-slate-300 hover:text-gold2" href="#testimonials">Testimonials</a>
+      <a href="#contact" class="bg-gold hover:bg-gold2 text-navy font-semibold px-4 py-2 rounded">Contact Us</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<!-- HERO -->
+<section id="home" class="relative overflow-hidden bg-navy text-white py-24">
+  <div class="absolute -right-32 -top-20 w-[520px] h-[520px] rounded-full border border-gold/30 shadow-[0_0_0_60px_rgba(200,162,74,.05),0_0_0_120px_rgba(200,162,74,.04)]"></div>
+  <div class="relative max-w-6xl mx-auto px-5">
+    <h1 class="font-serif font-bold text-4xl md:text-6xl leading-tight max-w-4xl">Build your business. Grow your opportunities. Achieve more.</h1>
+    <p class="text-lg text-slate-300 max-w-2xl mt-6 mb-9">From business registration and documentation to tender opportunities, compliance, marketing and client acquisition, Business Built Right provides practical business support to help UK businesses move forward with confidence.</p>
+    <div class="flex flex-wrap gap-3">
+      <a href="#services" class="bg-gold hover:bg-gold2 text-navy font-semibold px-7 py-3.5 rounded border-2 border-gold">Explore Our Services</a>
+      <a href="#contact" class="border-2 border-white/50 hover:border-white font-semibold px-7 py-3.5 rounded">Contact Our Team</a>
+    </div>
+    <div class="flex flex-wrap gap-x-8 gap-y-2 mt-14 pt-6 border-t border-white/15 text-slate-300 text-sm">
+      <span><b class="text-gold2">Start</b> registration &amp; setup</span>
+      <span><b class="text-gold2">Operate</b> documents &amp; compliance</span>
+      <span><b class="text-gold2">Win</b> tenders &amp; contracts</span>
+      <span><b class="text-gold2">Grow</b> marketing &amp; leads</span>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="py-20">
+  <div class="max-w-6xl mx-auto px-5 grid md:grid-cols-2 gap-12 items-start">
+    <div>
+      <h2 class="font-serif font-bold text-3xl md:text-4xl mb-4">Complete business support, under one roof</h2>
+      <p class="text-slate2">Business Built Right is not just a tender support company. We help startups, small businesses, established companies, contractors and entrepreneurs across the United Kingdom start, operate, improve their visibility, win opportunities and grow.</p>
+    </div>
+    <div class="grid gap-5">
+      <div class="border border-slate-200 border-t-[3px] border-t-gold rounded p-6"><h3 class="font-serif font-bold text-xl mb-2">Our mission</h3><p class="text-slate2 text-[15px]">To make business growth easier by providing reliable, practical and professional support in one place.</p></div>
+      <div class="border border-slate-200 border-t-[3px] border-t-gold rounded p-6"><h3 class="font-serif font-bold text-xl mb-2">Our values</h3><p class="text-slate2 text-[15px]">Reliability, clarity and a practical approach, with a commitment to helping every business we work with move forward.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES (edit the list in the script at the bottom) -->
+<section id="services" class="py-20 bg-soft">
+  <div class="max-w-6xl mx-auto px-5">
+    <h2 class="font-serif font-bold text-3xl md:text-4xl mb-3">Everything your business needs under one roof</h2>
+    <p class="text-slate2 max-w-xl mb-10">Eight areas of support, from the first day of trading to winning new clients.</p>
+    <div id="serviceGrid" class="grid sm:grid-cols-2 lg:grid-cols-4 gap-5"></div>
+  </div>
+</section>
+
+<!-- TENDERS -->
+<section id="tenders" class="py-20">
+  <div class="max-w-6xl mx-auto px-5 grid md:grid-cols-2 gap-12 items-start">
+    <div>
+      <h2 class="font-serif font-bold text-3xl md:text-4xl mb-4">Tender opportunities and contract support</h2>
+      <p class="text-slate2">Finding the right contracts is half the work. We research opportunities in the public and private sectors and help you prepare to bid.</p>
+      <a href="#contact" class="inline-block mt-6 bg-gold hover:bg-gold2 text-navy font-semibold px-7 py-3.5 rounded">Ask About Tenders</a>
+    </div>
+    <div class="bg-navy text-white p-8 rounded">
+      <h3 class="font-serif font-bold text-2xl text-gold2 mb-3">What we support</h3>
+      <ul class="divide-y divide-white/15 text-slate-300">
+        <li class="py-2.5">UK government tender research</li>
+        <li class="py-2.5">Public sector contract opportunities</li>
+        <li class="py-2.5">Private sector contract research</li>
+        <li class="py-2.5">Bid preparation and tender document assistance</li>
+        <li class="py-2.5">Supplier registration guidance</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- GROWTH -->
+<section id="growth" class="py-20 bg-soft">
+  <div class="max-w-6xl mx-auto px-5 grid md:grid-cols-2 gap-12 items-start">
+    <div class="bg-navy text-white p-8 rounded order-2 md:order-1">
+      <h3 class="font-serif font-bold text-2xl text-gold2 mb-3">How we help you grow</h3>
+      <ul class="divide-y divide-white/15 text-slate-300">
+        <li class="py-2.5">Research potential clients and prospects</li>
+        <li class="py-2.5">Build targeted B2B prospect lists</li>
+        <li class="py-2.5">Identify partnership opportunities</li>
+        <li class="py-2.5">Improve your online presence and brand visibility</li>
+        <li class="py-2.5">Plan growth and expansion with clear strategy</li>
+      </ul>
+    </div>
+    <div class="order-1 md:order-2">
+      <h2 class="font-serif font-bold text-3xl md:text-4xl mb-4">Business growth solutions</h2>
+      <p class="text-slate2">Visibility and a steady flow of enquiries drive growth. We combine research, marketing support and strategy so the right clients can find you.</p>
+      <a href="#contact" class="inline-block mt-6 bg-gold hover:bg-gold2 text-navy font-semibold px-7 py-3.5 rounded">Discuss Your Growth</a>
+    </div>
+  </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section id="portfolio" class="py-20">
+  <div class="max-w-6xl mx-auto px-5">
+    <h2 class="font-serif font-bold text-3xl md:text-4xl mb-3">Portfolio</h2>
+    <p class="text-slate2 max-w-xl mb-10">Genuine sample projects and completed work will appear here. The tiles below are placeholders.</p>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+      <div class="border-2 border-dashed border-slate-300 rounded p-6 min-h-[170px] flex flex-col justify-center"><span class="self-start text-xs font-semibold bg-gold text-navy px-2.5 py-0.5 rounded-full mb-3">Sample placeholder</span><b>Business documentation sample</b><small class="text-slate2">Add a business plan, profile or capability statement.</small></div>
+      <div class="border-2 border-dashed border-slate-300 rounded p-6 min-h-[170px] flex flex-col justify-center"><span class="self-start text-xs font-semibold bg-gold text-navy px-2.5 py-0.5 rounded-full mb-3">Sample placeholder</span><b>Tender research example</b><small class="text-slate2">Add an anonymised tender research summary.</small></div>
+      <div class="border-2 border-dashed border-slate-300 rounded p-6 min-h-[170px] flex flex-col justify-center"><span class="self-start text-xs font-semibold bg-gold text-navy px-2.5 py-0.5 rounded-full mb-3">Sample placeholder</span><b>Marketing project</b><small class="text-slate2">Add marketing or social media work.</small></div>
+      <div class="border-2 border-dashed border-slate-300 rounded p-6 min-h-[170px] flex flex-col justify-center"><span class="self-start text-xs font-semibold bg-gold text-navy px-2.5 py-0.5 rounded-full mb-3">Sample placeholder</span><b>Lead generation sample</b><small class="text-slate2">Add a prospect research sample.</small></div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials" class="py-20 bg-soft">
+  <div class="max-w-6xl mx-auto px-5">
+    <h2 class="font-serif font-bold text-3xl md:text-4xl mb-3">Testimonials</h2>
+    <p class="text-slate2 max-w-xl mb-10">Genuine client feedback, reviews and ratings will be shown here once received. No reviews have been invented.</p>
+    <div class="grid md:grid-cols-3 gap-5">
+      <div class="bg-white border-2 border-dashed border-slate-300 rounded p-6 min-h-[170px] flex flex-col justify-center"><span class="self-start text-xs font-semibold bg-gold text-navy px-2.5 py-0.5 rounded-full mb-3">Placeholder</span><div class="text-gold tracking-widest" aria-hidden="true">☆☆☆☆☆</div><b>Client testimonial</b><small class="text-slate2">Verified client name, business and review go here.</small></div>
+      <div class="bg-white border-2 border-dashed border-slate-300 rounded p-6 min-h-[170px] flex flex-col justify-center"><span class="self-start text-xs font-semibold bg-gold text-navy px-2.5 py-0.5 rounded-full mb-3">Placeholder</span><div class="text-gold tracking-widest" aria-hidden="true">☆☆☆☆☆</div><b>Client testimonial</b><small class="text-slate2">Verified client name, business and review go here.</small></div>
+      <div class="bg-white border-2 border-dashed border-slate-300 rounded p-6 min-h-[170px] flex flex-col justify-center"><span class="self-start text-xs font-semibold bg-gold text-navy px-2.5 py-0.5 rounded-full mb-3">Placeholder</span><div class="text-gold tracking-widest" aria-hidden="true">☆☆☆☆☆</div><b>Client rating</b><small class="text-slate2">Link to a verified review platform when available.</small></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="py-20">
+  <div class="max-w-6xl mx-auto px-5 grid md:grid-cols-2 gap-12 items-start">
+    <div>
+      <h2 class="font-serif font-bold text-3xl md:text-4xl mb-3">Contact us</h2>
+      <p class="text-slate2 mb-8">Tell us what you need and our team will get back to you.</p>
+      <p class="mb-4"><b class="block text-gold text-sm">Business name</b>Business Built Right</p>
+      <p class="mb-4"><b class="block text-gold text-sm">Email</b>[INSERT BUSINESS GMAIL]</p>
+      <p class="mb-4"><b class="block text-gold text-sm">Phone</b>[INSERT BUSINESS PHONE NUMBER]</p>
+      <p><b class="block text-gold text-sm">Location</b>United Kingdom business support services</p>
+    </div>
+    <form id="f" novalidate class="grid sm:grid-cols-2 gap-4">
+      <div><label for="n" class="block text-sm font-medium mb-1.5">Full name</label><input id="n" required autocomplete="name" class="w-full border border-slate-300 rounded px-3.5 py-3 focus:outline-none focus:ring-2 focus:ring-gold"></div>
+      <div><label for="b" class="block text-sm font-medium mb-1.5">Business name</label><input id="b" autocomplete="organization" class="w-full border border-slate-300 rounded px-3.5 py-3 focus:outline-none focus:ring-2 focus:ring-gold"></div>
+      <div><label for="e" class="block text-sm font-medium mb-1.5">Email address</label><input id="e" type="email" required autocomplete="email" class="w-full border border-slate-300 rounded px-3.5 py-3 focus:outline-none focus:ring-2 focus:ring-gold"></div>
+      <div><label for="p" class="block text-sm font-medium mb-1.5">Phone number (optional)</label><input id="p" type="tel" autocomplete="tel" class="w-full border border-slate-300 rounded px-3.5 py-3 focus:outline-none focus:ring-2 focus:ring-gold"></div>
+      <div class="sm:col-span-2"><label for="s" class="block text-sm font-medium mb-1.5">Service required</label>
+        <select id="s" class="w-full border border-slate-300 rounded px-3.5 py-3 bg-white focus:outline-none focus:ring-2 focus:ring-gold">
+          <option>UK Tender &amp; Contract Opportunities</option><option>Business Documentation</option><option>Business Registration &amp; Setup</option><option>Business Compliance Support</option><option>Business Consultancy</option><option>Business Growth &amp; Development</option><option>Marketing &amp; Online Visibility</option><option>Client Acquisition &amp; Lead Generation</option><option>Other</option>
+        </select></div>
+      <div class="sm:col-span-2"><label for="m" class="block text-sm font-medium mb-1.5">Message</label><textarea id="m" rows="5" required class="w-full border border-slate-300 rounded px-3.5 py-3 focus:outline-none focus:ring-2 focus:ring-gold"></textarea></div>
+      <div class="sm:col-span-2"><button type="submit" class="bg-gold hover:bg-gold2 text-navy font-semibold px-7 py-3.5 rounded">Send Message</button><p id="status" class="mt-3 font-medium" role="status"></p></div>
+    </form>
+  </div>
+</section>
+</main>
+
+<!-- FOOTER -->
+<footer class="bg-navy text-slate-300 pt-14 pb-8 text-[15px]">
+  <div class="max-w-6xl mx-auto px-5">
+    <div class="grid md:grid-cols-[2fr_1fr_1fr] gap-9">
+      <div><h4 class="text-white font-semibold mb-3">Business Built Right</h4><p>Complete business support, consultancy and growth solutions for UK businesses.</p></div>
+      <div><h4 class="text-white font-semibold mb-3">Explore</h4><a class="block py-1 hover:text-gold2" href="#services">Services</a><a class="block py-1 hover:text-gold2" href="#tenders">Tenders</a><a class="block py-1 hover:text-gold2" href="#growth">Growth</a><a class="block py-1 hover:text-gold2" href="#contact">Contact Us</a></div>
+      <div><h4 class="text-white font-semibold mb-3">Follow us</h4><a class="block py-1 hover:text-gold2" href="#">LinkedIn</a><a class="block py-1 hover:text-gold2" href="#">Facebook</a><a class="block py-1 hover:text-gold2" href="#">Instagram</a><a class="block py-1 hover:text-gold2" href="#">X</a></div>
+    </div>
+    <div class="mt-9 pt-5 border-t border-white/10 text-sm">&copy; Business Built Right. All rights reserved.</div>
+  </div>
+</footer>
+
+<script>
+// ---- SERVICES: edit titles/descriptions here ----
+const icon = p => `<svg viewBox="0 0 24 24" class="w-9 h-9 mb-3.5 stroke-gold fill-none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">${p}</svg>`;
+const services = [
+  ["UK Tender & Contract Opportunities", "Government and private sector tender research, bid preparation, supplier registration guidance and tender document assistance.", '<path d="M4 4h16v16H4z"/><path d="M8 9h8M8 13h8M8 17h5"/>'],
+  ["Business Documentation", "Business plans, company profiles, capability statements, proposals, policies and procedures, reports and business letters.", '<path d="M6 3h9l4 4v14H6z"/><path d="M14 3v5h5M9 13h7M9 17h7"/>'],
+  ["Registration & Setup", "UK company registration guidance, limited company setup, business name and structure guidance, and startup support.", '<path d="M3 21h18M5 21V8l7-5 7 5v13M9 21v-6h6v6"/>'],
+  ["Compliance Support", "Compliance and health and safety documentation, GDPR guidance, supplier compliance and procurement readiness.", '<path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M8.5 12l2.5 2.5 4.5-5"/>'],
+  ["Business Consultancy", "Strategy planning, business improvement advice, startup consultancy, operations support and market research.", '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>'],
+  ["Growth & Development", "Growth strategies, partnership research, B2B prospect research and business expansion research.", '<path d="M3 20l6-6 4 4 8-9"/><path d="M15 9h6v6"/>'],
+  ["Marketing & Online Visibility", "Digital marketing and social media support, brand visibility, online presence and marketing content assistance.", '<path d="M3 11v3l12 5V6z"/><path d="M15 9a4 4 0 010 6M6 15v4"/>'],
+  ["Client Acquisition & Lead Generation", "Targeted B2B lead generation, prospect list building, competitor research and potential partnership identification.", '<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3"/>']
+];
+document.getElementById("serviceGrid").innerHTML = services.map(s =>
+  `<div class="bg-white border border-slate-200 border-t-[3px] border-t-gold rounded p-6">${icon(s[2])}<h3 class="font-serif font-bold text-xl mb-2">${s[0]}</h3><p class="text-slate2 text-[15px]">${s[1]}</p></div>`
+).join("");
+
+// ---- CONTACT FORM: put your real email here ----
+const BUSINESS_EMAIL = "";
+document.getElementById("f").addEventListener("submit", ev => {
+  ev.preventDefault();
+  const g = id => document.getElementById(id).value.trim(), st = document.getElementById("status");
+  if (!g("n") || !g("m") || g("e").indexOf("@") < 1) { st.textContent = "Please enter your name, a valid email address and a message."; return; }
+  if (!BUSINESS_EMAIL) { st.textContent = "Add your business email to BUSINESS_EMAIL in index.html first."; return; }
+  const body = `Name: ${g("n")}\nBusiness: ${g("b")}\nEmail: ${g("e")}\nPhone: ${g("p")}\nService: ${g("s")}\n\n${g("m")}`;
+  location.href = `mailto:${BUSINESS_EMAIL}?subject=${encodeURIComponent("Enquiry: " + g("s"))}&body=${encodeURIComponent(body)}`;
+  st.textContent = "Opening your email app to send the message.";
+});
+</script>
+</body>
+</html>
